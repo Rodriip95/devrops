@@ -5,6 +5,7 @@ import Faq from "./componentes/05-Faq/Faq.jsx";
 import Contact from "./componentes/06-contact/contact.jsx";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
+import Testimonials from "./componentes/05-Testimonials/Testimonials.jsx";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Navbar/>
       <About/>
       <Course/>
+      <Testimonials/>
       <Faq/>
       <Contact/>
     </>
@@ -20,23 +22,3 @@ function App() {
 }
 
 export default App;
-
-
-function Asd(){
-  return(
-    <Carousel>
-        <div style={{width: "200px", height:"200px"}}>
-            
-            <p className="legend">Legend 1</p>
-        </div>
-        <div style={{width: "200px", height:"200px"}}>
-            
-            <p className="legend">Legend 2</p>
-        </div>
-        <div style={{width: "200px", height:"200px"}}>
-            
-            <p className="legend">Legend 3</p>
-        </div>
-    </Carousel>
-  )
-}

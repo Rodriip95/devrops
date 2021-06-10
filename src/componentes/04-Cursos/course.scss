@@ -1,0 +1,94 @@
+@import '../../styles/variables.scss';
+
+.title-cont{
+    background-color: $color-fondo;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    h1{
+        font-size: 4rem;
+        color: #fff;
+        font-family: $fuente-secundario;
+    }
+    .linea{
+        height: 0.4rem;
+        background-color: $color-vivos;
+        width: 40%;
+        margin: 0 0 0 3rem;
+    }
+}
+
+.online{
+    background-color: $color-fondo;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    padding: 0.2rem;
+    .clases{
+        font-size: 0.7rem;
+        font-family: $fuente-alternativa;
+    }
+    .punto-rojo{
+        height: 0.7rem;
+        width: 0.7rem;
+        background-color: rgb(233, 0, 0);
+        border-radius: 100%;
+        margin-right: 0.3rem;
+    }
+}
+.carta-curso{
+    box-shadow: 3px 4px 18px 0px rgba(0,0,0,0.30);
+    -webkit-box-shadow: 3px 4px 18px 0px rgba(0,0,0,0.30);
+    -moz-box-shadow: 3px 4px 18px 0px rgba(0,0,0,0.30);
+    div h2{
+        font-family: $fuente-secundario;
+        font-size: 2.7rem;
+    }
+}
+.duration{
+    color: $color-fondo;
+    i{
+        font-size: 1.3rem;
+        width: 2rem;
+    }
+    span{
+        font-family: $fuente-secundario;
+        font-size: 1.2rem;
+    }
+}
+
+.precio{
+    p{
+        font-family: $fuente-alternativa;
+        font-size: 1.5rem;
+    }
+    span{
+        font-family: $fuente-alternativa;
+        font-size: 3rem;
+        color: $color-vivos;
+    }
+}
+
+.btnCurso{
+    text-align: center;
+    a{
+        text-decoration: none;
+        font-family: $fuente-alternativa;
+        background-color: $color-vivos;
+        padding: 0.2rem 4rem;
+        font-size: 1.1rem;
+        color: #fff;
+        border-radius: 0.3rem;
+        transition-delay: 10ms;
+        transition-duration: 200ms;
+        transition-timing-function: ease-out;
+    }
+    a:hover{
+        background-color: $color-principal;
+        transition-delay: 10ms;
+        transition-duration: 200ms;
+        transition-timing-function: ease-in;
+    }
+}

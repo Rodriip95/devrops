@@ -1,0 +1,43 @@
+@import '../../styles/variables.scss';
+
+.sec-testi{
+    background-color: $color-fondo !important;
+}
+
+.fondo-testi{
+    h3{
+        color: #fff;
+        font-family: $fuente-secundario;
+        font-size: 2.3rem;
+    }
+    div{
+        position: relative;
+        .testimonio{
+            color: #fff;
+            font-family: $fuente-uno;
+        }
+        span{
+            color: #fff;
+            font-family: $fuente-alternativa;
+            font-size: 10rem;
+            position: absolute;
+        }
+        .comilla-arriba{
+            top: -12rem;
+            left: -4rem;
+            transform: rotate(180deg);
+            opacity: 0.2;
+        }
+        .comilla-abajo{
+            bottom: -6rem;
+            right: -4rem;
+            opacity: 0.2;
+        }
+        
+    }
+}
+
+.flechas{
+    background-color: $color-principal !important;
+}
+
