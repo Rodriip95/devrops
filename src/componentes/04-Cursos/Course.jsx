@@ -63,7 +63,7 @@ export default function Course(){
                                 <span>Cupos limitados</span>
                             </div>
                             <div className="precio d-flex justify-content-center">
-                                <p>$<span>4999</span></p>
+                                <p>$<span>6999</span></p>
                             </div>
                             <div className="btnCurso d-flex justify-content-center">
                                 <a href="#">Ver</a>
