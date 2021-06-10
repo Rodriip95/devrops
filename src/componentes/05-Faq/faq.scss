@@ -1,0 +1,24 @@
+@import '../../styles/variables.scss';
+
+.pheader{
+    color: $color-vivos !important; 
+}
+
+.accordion-item{
+    background-color: #fff !important;
+    h2{
+        background-color: #fff !important;
+    }
+}
+.accordion-button{
+    background-color: #fff !important;
+}
+.accordion-button:focus{
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+.h2faq{
+    font-family: $fuente-secundario ;
+    font-size: 4rem;
+}

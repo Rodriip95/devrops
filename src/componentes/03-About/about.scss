@@ -1,0 +1,18 @@
+@import '../../styles/variables.scss';
+
+.about-h1{
+    font-size: 4rem;
+    font-family: $fuente-secundario;
+    span{
+        color: $color-vivos;
+    }
+}
+.about-p{
+    font-family: $fuente-uno;
+    font-size: 2rem;
+}
+.tipeo{
+    font-family: $fuente-uno;
+    font-size: 3rem;
+    color: $color-vivos;
+}
