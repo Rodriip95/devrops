@@ -3,12 +3,11 @@ import "./faq.scss"
 
 function faq(){
     return(
-    <div>
-
-        <div className="accordion container pt-4" id="accordionExample">
-            <div className="text-center">
-                <h2 className="h2faq"> Preguntas Frecuentes</h2>
-            </div>
+    <div className="container d-flex flex-column align-items-center">
+        <div className="text-center mt-5">
+            <h2 className="h2faq"> Preguntas Frecuentes</h2>
+        </div>
+        <div className="accordion pt-4 w-75" id="accordionExample">
             <div className="accordion-item">
                 <h2 className="accordion-header" id="headingOne">
                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
