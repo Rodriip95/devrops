@@ -1,2 +1,44 @@
 @import '../../styles/variables.scss';
 
+.navbar{
+    background-color: $color-fondo;
+}
+
+.logo{
+    color: $color-vivos;
+    font-size: 2rem;
+    opacity: 0.9;
+    font-family: $fuente-secundario;
+    transition: 150ms ease-out;
+    &:hover{
+        color: $color-vivos;
+        transform: scale(1.2);
+        opacity: 1;
+        transition: 150ms ease-in;
+    }
+}
+
+.lista{
+    font-family: $fuente-secundario;
+    a{
+        color: #fff !important;
+    }
+}
+
+.lista-items{
+    .lineanav{
+        height: 4px;
+        width: 0%;
+        background-color: $color-vivos;
+        transition: 200ms 10ms ease-out;
+    }
+    &:hover{
+        .lineanav{
+            width: 100%;
+            transition: 150ms 10ms ease-in;
+        }
+    }
+}
+
+
+

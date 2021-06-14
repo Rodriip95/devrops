@@ -4,14 +4,17 @@ import './course.scss'
 
 export default function Course(){
     return(
-        <div className="container my-5">
-            <div className="title-cont text-center">
+        <>
+        <div className="container-fluid p-0">
+            <div className="title-cont text-center w-100">
                 <h1>Cursos</h1>
                 <div className="linea"></div>
             </div>
+        </div>
+        <div className="container mb-5">
             <div className="row">
                 <div className="col-12 col-md-6 d-flex justify-content-center">
-                    <div className="w-75 mb-5 border carta-curso d-flex flex-column justify-content-between">
+                    <div className="w-100 mx-4 mb-5 border carta-curso d-flex flex-column justify-content-between">
                         <div style={{height:"140px"}}>
                                 <div className="d-flex justify-content-end">
                                     <div className="online">
@@ -45,7 +48,7 @@ export default function Course(){
                 </div>
 
                 <div className="col-12 col-md-6  d-flex justify-content-center">
-                    <div className="w-75 mb-5 border carta-curso d-flex flex-column justify-content-between">
+                    <div className="w-100 mx-4 mb-5 border carta-curso d-flex flex-column justify-content-between">
                         <div style={{height:"140px"}}>
                             <div className="d-flex justify-content-end">
                                 <div className="online">
@@ -79,5 +82,6 @@ export default function Course(){
 
             </div>
         </div>
+        </>
     )
 }
