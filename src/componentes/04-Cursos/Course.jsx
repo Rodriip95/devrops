@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom'
 import './course.scss'
 
 export default function Course(){
@@ -21,7 +22,7 @@ export default function Course(){
                                 <h2 className="text-center">Diseño Web</h2>
                             </div>
                             <div className="p-2">
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In sequi accusamus magnam, deserunt itaque dolor at pariatur vel provident enim quod nemo natus. Inventore debitis obcaecati doloribus iure quae cumque?</p>
+                                <p>En este desafio aprenderas a crear una pagina web desde 0, tambien aprenderas sobre diseños y conceptos que representan un sitio web. Ademas trabajaremos sobre tu perfil laboral como diseñador.</p>
                                 <div className="d-flex flex-row align-items-center mb-2 duration ">
                                     <i class="fas fa-clock"></i>
                                     <span>6 semanas</span>
@@ -35,7 +36,9 @@ export default function Course(){
                                 </div>
 
                                 <div className="btnCurso d-flex justify-content-center">
-                                    <a href="#">Ver</a>
+                                    <Link to="/curso/design">
+                                        <a href="#">Ver</a>
+                                    </Link>
                                 </div>
                             </div>  
                         </div>
@@ -53,7 +56,7 @@ export default function Course(){
                             <h2 className="text-center">Programación Web</h2>
                         </div>
                         <div className="p-2">
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In sequi accusamus magnam, deserunt itaque dolor at pariatur vel provident enim quod nemo natus. Inventore debitis obcaecati doloribus iure quae cumque?</p>
+                            <p>En este desafio veremos la introduccion a la programacion, aprenderemos a manipular una pagina web y haremos distintos juegos y programas que utiles para los usuarios.</p>
                             <div className="d-flex flex-row align-items-center mb-2 duration ">
                                 <i class="fas fa-clock"></i>
                                 <span>6 semanas</span>
@@ -66,7 +69,9 @@ export default function Course(){
                                 <p>$<span>6999</span></p>
                             </div>
                             <div className="btnCurso d-flex justify-content-center">
-                                <a href="#">Ver</a>
+                                <Link to="/curso/programming">
+                                    <a href="#">Ver</a>
+                                </Link>
                             </div>
                         </div>  
                     </div>
