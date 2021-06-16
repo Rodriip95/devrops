@@ -1,10 +1,10 @@
 import Navbar from "./componentes/01-Navbar/Navbar.jsx";
 import Main from "./componentes/main.js";
+import PageDesing from "./componentes/desing.js";
 import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 
 
@@ -13,6 +13,12 @@ function App() {
     <Router>
       <Navbar/>
       <Switch>
+        <Route exact path="/curso/design">
+          <PageDesing/>
+        </Route>
+        <Route exact path="/curso/programming">
+          <Main/>
+        </Route>
         <Route path="/">
           <Main/>
         </Route>

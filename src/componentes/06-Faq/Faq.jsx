@@ -3,7 +3,7 @@ import "./faq.scss"
 
 function faq(){
     return(
-    <div className="container d-flex flex-column align-items-center mb-5">
+    <div id="faq" className="container d-flex flex-column align-items-center mb-5">
         <div className="text-center mt-5">
             <h2 className="h2faq"> Preguntas Frecuentes</h2>
         </div>

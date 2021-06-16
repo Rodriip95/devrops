@@ -5,7 +5,7 @@ import './course.scss'
 export default function Course(){
     return(
         <>
-        <div className="container-fluid p-0 my-5">
+        <div id="course" className="container-fluid p-0 my-5">
             <div className="title-cont text-center w-100">
                 <h1>Cursos</h1>
                 <div className="linea"></div>
@@ -25,7 +25,7 @@ export default function Course(){
                                 <h2 className="text-center">Diseño Web</h2>
                             </div>
                             <div className="p-2">
-                                <p>En este desafio aprenderas a crear una pagina web desde 0, tambien aprenderas sobre diseños y conceptos que representan un sitio web. Ademas trabajaremos sobre tu perfil laboral como diseñador.</p>
+                                <p>En este desafío aprenderás a crear una página web desde 0, también aprenderás sobre diseños y conceptos que representan un sitio web. Además trabajaremos sobre tu perfil laboral como diseñador.</p>
                                 <div className="d-flex flex-row align-items-center mb-2 duration ">
                                     <i class="fas fa-clock"></i>
                                     <span>6 semanas</span>
@@ -59,7 +59,7 @@ export default function Course(){
                             <h2 className="text-center">Programación Web</h2>
                         </div>
                         <div className="p-2">
-                            <p>En este desafio veremos la introduccion a la programacion, aprenderemos a manipular una pagina web y haremos distintos juegos y programas que utiles para los usuarios.</p>
+                            <p>En este desafío veremos la introducción a la programación, aprenderemos a manipular una página web y haremos distintos juegos y programas que útiles para los usuarios.</p>
                             <div className="d-flex flex-row align-items-center mb-2 duration ">
                                 <i class="fas fa-clock"></i>
                                 <span>6 semanas</span>

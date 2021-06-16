@@ -5,28 +5,33 @@ export default function Testimonials() {
     const [comments, setComments] = useState([
         {
             name: "Manu Brandan",
-            comment: "Fueron semanas de puro aprendizaje, con ejercicios divertidos y fáciles de entender por lo bien abordados los temas. Gracias por la paciencia y dedicación",
+            comment: "Fueron semanas de puro aprendizaje, con ejercicios divertidos y fáciles de entender por lo bien abordados los temas. Gracias por la paciencia y dedicación.",
             image: "manu.jpeg"
         },
         {
-            name: "Manu Brandan",
-            comment: "Fueron semanas de puro aprendizaje, con ejercicios divertidos y fáciles de entender por lo bien abordados los temas. Gracias por la paciencia y dedicación",
-            image: "manu.jpeg"
+            name: "Simon Perez",
+            comment: "Mi experiencia personal dentro del curso fue de muchísima utilidad ya que aprendí desde la introducción al mundo del desarrollo web con sus bases en HTML y CSS. Lo recomiendo!!",
+            image: "simon.jpeg"
         },
         {
-            name: "Manu Brandan",
-            comment: "Fueron semanas de puro aprendizaje, con ejercicios divertidos y fáciles de entender por lo bien abordados los temas. Gracias por la paciencia y dedicación",
-            image: "manu.jpeg"
+            name: "Gaston Steck",
+            comment: "El curso es muy recomendable y muy fácil de seguir clase a clase, esta bien estructurado para que aprendas desde el comienzo!",
+            image: "gaston.jpeg"
         },
         {
-            name: "Manu Brandan",
-            comment: "Fueron semanas de puro aprendizaje, con ejercicios divertidos y fáciles de entender por lo bien abordados los temas. Gracias por la paciencia y dedicación",
-            image: "manu.jpeg"
+            name: "Imanol Vega",
+            comment: "Super recomendado, es un mundo totalmente diferente, ni hablar de las puertas que te abre.",
+            image: "ima.jpg"
+        },
+        {
+            name: "Ivan Gomez",
+            comment: "Excelente! Buena forma de explicar y mucha paciencia! Logramos el objetivo de crear paginas solos.",
+            image: "ivan.jpg"
         },
         
     ])
   return (
-      <div className="sec-testi pt-4">
+      <div id="testimonials" className="sec-testi pt-4">
           <h1 className="text-center">Testimonios</h1>
           <div className="lineaverde"></div>
         <div
@@ -81,7 +86,9 @@ function Cuadro({data}){
     return(
         <div className="fondo-testi pt-4">
             <div className="d-flex flex-column align-items-center justify-content-center">
-                <img src={`/assests/images/testimonials/${data.image}`} className="rounded-circle bg-success" style={{width:"200px", height:"200px"}}/>
+                <div className="rounded-circle" style={{width:"200px", height:"200px", overflow: "hidden"}}>
+                    <img style={{width: "100%"}} src={`/assests/images/testimonials/${data.image}`}/>
+                </div>
                 <h3 className="mt-2">{data.name}</h3>
                 <div className="w-50 text-center pb-5">
                     <p className="testimonio">{data.comment}</p>
