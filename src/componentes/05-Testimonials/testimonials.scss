@@ -2,6 +2,17 @@
 
 .sec-testi{
     background-color: $color-fondo !important;
+    h1{
+        font-size: 4rem;
+        font-family: $fuente-secundario;
+        color: #fff;
+    }
+    .lineaverde{
+        height: 4px;
+        width: 40%;
+        background-color: $color-vivos;
+        margin-left: 4rem;
+    }
 }
 
 .fondo-testi{

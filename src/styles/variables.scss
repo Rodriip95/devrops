@@ -9,3 +9,10 @@ $color-principal: #4ba173;
 $fuente-uno: 'Baloo Tammudu 2', cursive;
 $fuente-secundario: 'Nunito', sans-serif;
 $fuente-alternativa: 'Space Grotesk', sans-serif;
+
+html{
+    scroll-behavior: smooth;
+}
+#root{
+    overflow-x: hidden;
+}

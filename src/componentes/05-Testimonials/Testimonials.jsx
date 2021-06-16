@@ -1,48 +1,58 @@
-import React from "react";
+import React, { useState } from "react";
 import "./testimonials.scss"
 
 export default function Testimonials() {
+    const [comments, setComments] = useState([
+        {
+            name: "Manu Brandan",
+            comment: "Fueron semanas de puro aprendizaje, con ejercicios divertidos y fáciles de entender por lo bien abordados los temas. Gracias por la paciencia y dedicación",
+            image: "manu.jpeg"
+        },
+        {
+            name: "Manu Brandan",
+            comment: "Fueron semanas de puro aprendizaje, con ejercicios divertidos y fáciles de entender por lo bien abordados los temas. Gracias por la paciencia y dedicación",
+            image: "manu.jpeg"
+        },
+        {
+            name: "Manu Brandan",
+            comment: "Fueron semanas de puro aprendizaje, con ejercicios divertidos y fáciles de entender por lo bien abordados los temas. Gracias por la paciencia y dedicación",
+            image: "manu.jpeg"
+        },
+        {
+            name: "Manu Brandan",
+            comment: "Fueron semanas de puro aprendizaje, con ejercicios divertidos y fáciles de entender por lo bien abordados los temas. Gracias por la paciencia y dedicación",
+            image: "manu.jpeg"
+        },
+        
+    ])
   return (
-      <div className="sec-testi">
+      <div className="sec-testi pt-4">
+          <h1 className="text-center">Testimonios</h1>
+          <div className="lineaverde"></div>
         <div
         id="carouselExampleIndicators"
         class="carousel slide container"
         data-bs-ride="carousel"
         >
         <div class="carousel-indicators">
-            <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="0"
-            class="active flechas"
-            aria-current="true"
-            aria-label="Slide 1"
-            ></button>
-            <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-            className="flechas"
-            ></button>
-            <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-            className="flechas"
-            ></button>
+            {comments.map((v, i)=>(
+                <button
+                    key={i}
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to={i}
+                    class={i == 0? "active flechas" : "flechas"}
+                    aria-current={i == 0 && "true"}
+                    aria-label={`Slide ${i+1}`}
+                    ></button>
+            ))}
         </div>
         <div class="carousel-inner">
-            <div class="carousel-item active">
-            <Cuadro/>
-            </div>
-            <div class="carousel-item">
-            <Cuadro/>
-            </div>
-            <div class="carousel-item">
-            <Cuadro/>
-            </div>
+            {comments.map((value, index)=>
+                <div class={index == 0 ? "carousel-item active" : "carousel-item"} key={index}>
+                    <Cuadro data={value}/>
+                </div>
+            )}
         </div>
         <button
             class="carousel-control-prev btn-slider"
@@ -67,14 +77,14 @@ export default function Testimonials() {
   );
 }
 
-function Cuadro(){
+function Cuadro({data}){
     return(
         <div className="fondo-testi pt-4">
             <div className="d-flex flex-column align-items-center justify-content-center">
-                <div className="rounded-circle bg-success" style={{width:"200px", height:"200px"}}></div>
-                <h3 className="mt-2">Manu Brandan</h3>
+                <img src={`/assests/images/testimonials/${data.image}`} className="rounded-circle bg-success" style={{width:"200px", height:"200px"}}/>
+                <h3 className="mt-2">{data.name}</h3>
                 <div className="w-50 text-center pb-5">
-                    <p className="testimonio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, voluptatum facere. Corporis consequuntur, quam adipisci quasi asperiores numquam minus magni. Ab ratione autem error doloribus et dolor tempore laboriosam nisi?</p>
+                    <p className="testimonio">{data.comment}</p>
                     <span className="comilla-arriba">"</span>
                     <span className="comilla-abajo">"</span>
                 </div>
