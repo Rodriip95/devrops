@@ -1,1 +1,64 @@
 @import '../../styles/variables.scss';
+
+
+.texto-contact{
+    font-family: $fuente-secundario;
+    font-size: 4rem;
+    color: $color-fondo;
+}
+
+.cont-buzon{
+    h3{
+        font-family: $fuente-uno;
+        font-size: 2rem;
+    }
+    div{
+        position: relative;
+    }
+    .blobfondo{
+        position: absolute;
+        z-index: -1;
+        width: 340px;
+        transform: rotate(180deg) scale(1.4);
+        opacity: .6;
+        left: 0;
+        top: -30px;
+    }
+}
+
+.inputFormik{
+    border-radius: 0.4rem;
+    border: 0px;
+    background-color: transparent;
+    outline: none;
+}
+.alertamail{
+    height: 3px;
+    background-color: rgb(190, 0, 0);
+}
+.alertp{
+    font-family: $fuente-uno;
+    margin-top: 4px;
+}
+.alerta{
+    height: 3px;
+    background-color: rgb(190, 0, 0);
+    margin-bottom: 3rem;
+}
+.noalert{
+    height: 3px;
+    background-color: $color-principal;
+    margin-bottom: 3rem;
+}
+.btn-submit{
+    border: 0px;
+    background-color: $color-vivos;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    transition: 300ms 10ms ease-out;
+    &:hover{
+        background-color: $color-principal;
+        transition: 200ms 10ms ease-in;
+    }
+}

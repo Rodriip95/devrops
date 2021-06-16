@@ -5,7 +5,7 @@ import './course.scss'
 export default function Course(){
     return(
         <>
-        <div className="container-fluid p-0">
+        <div className="container-fluid p-0 my-5">
             <div className="title-cont text-center w-100">
                 <h1>Cursos</h1>
                 <div className="linea"></div>
@@ -39,8 +39,8 @@ export default function Course(){
                                 </div>
 
                                 <div className="btnCurso d-flex justify-content-center">
-                                    <Link to="/curso/design">
-                                        <a href="#">Ver</a>
+                                    <Link className="btnlink" to="/curso/design">
+                                        <span>Ver</span>
                                     </Link>
                                 </div>
                             </div>  
@@ -72,8 +72,8 @@ export default function Course(){
                                 <p>$<span>6999</span></p>
                             </div>
                             <div className="btnCurso d-flex justify-content-center">
-                                <Link to="/curso/programming">
-                                    <a href="#">Ver</a>
+                                <Link className="btnlink" to="/curso/programming">
+                                    <span>Ver</span>
                                 </Link>
                             </div>
                         </div>  

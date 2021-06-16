@@ -42,15 +42,18 @@ export default function Contact(){
 
 
     return(
-        <div id="contact" className="container">
+        <div id="contact" className="container mt-5 pt-5">
             <div className="d-flex justify-content-center">
-                <h1>Contacto</h1>
+                <h1 className="texto-contact">Contacto</h1>
             </div>
 
-            <div className="row">
-                <div className="col-12 col-lg-6 px-4 d-flex flex-column justify-content-center align-items-center mb-5">
-                    <h3>Si tienes una consulta espefica poder enviarla </h3>
-                    <img src={"/assests/svg/inbox.svg"} alt="" width="340px"/>
+            <div className="row mt-4">
+                <div className="col-12 col-lg-6 px-4 d-flex flex-column justify-content-center align-items-center mb-5 cont-buzon">
+                    <h3 className="text-center">Si tienes una consulta espefica poder enviarla completando el siguiente formulario:</h3>
+                    <div>
+                        <img src={"/assests/svg/inbox.svg"} alt="" width="340px"/>
+                        <img className="blobfondo" src={"/assests/svg/blobr.svg"} alt=""/>
+                    </div>
                 </div>
 
                 <div className="col-12 col-lg-6 px-4 pt-lg-5">
@@ -68,15 +71,15 @@ export default function Contact(){
                     >
                     {({ errors, touched }) => (
                         <Form onSubmit={sendEmail} className="d-flex flex-column justify-content-center">
-                            <Field className="inputFormik" name="name" placeholder="Name..." />
+                            <Field className="inputFormik" name="name" placeholder="Nombre..." />
                             {errors.name? (
-                                <div className="alerta" style={{height:"28px"}}>{errors.name}</div>
-                            ) : <div style={{height:"28px"}}></div>}
+                                <div className="alerta"></div>
+                            ) : <div className="noalert"></div>}
                             <Field className="inputFormik" name="email" type="email" placeholder="Mail..." />
-                            {errors.email ? <div className="alerta" style={{height:"28px"}}>{errors.email}</div> : <div style={{height:"28px"}}></div>}
-                            <Field className="inputFormik" style={{resize: "none"}} name="message" component="textarea" placeholder="Insert comment..." />
-                            {errors.message ? <div className="alerta" style={{height:"28px"}}>{errors.message}</div> : <div style={{height:"28px"}}></div>}
-                            <button className="btn-submit mt-2" type="submit">Send</button>
+                            {errors.email ? <><div className="alertamail"></div><p className="alertp">Debe ingresar un mail valido</p></> : <div className="noalert"></div>}
+                            <Field className="inputFormik" style={{resize: "none"}} name="message" component="textarea" placeholder="Ingrese comentario..." />
+                            {errors.message ? <div className="alerta"></div> : <div className="noalert"></div>}
+                            <button className="btn-submit mt-2" type="submit">Enviar</button>
                         </Form>
                     )}
                     </Formik>

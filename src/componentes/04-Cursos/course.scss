@@ -10,7 +10,7 @@
         font-family: $fuente-secundario;
     }
     .linea{
-        height: 0.4rem;
+        height: 4px;
         background-color: $color-vivos;
         width: 40%;
         margin: 0 0 0 3rem;
@@ -74,11 +74,11 @@
 
 .btnCurso{
     text-align: center;
-    a{
+    .btnlink{
         text-decoration: none;
         font-family: $fuente-alternativa;
         background-color: $color-vivos;
-        padding: 0.2rem 2rem;
+        padding: 0.2rem 3.3rem;
         font-size: 1.1rem;
         color: #fff;
         border-radius: 0.3rem;
@@ -86,7 +86,7 @@
         transition-duration: 200ms;
         transition-timing-function: ease-out;
     }
-    a:hover{
+    .btnlink:hover{
         background-color: $color-principal;
         transition-delay: 10ms;
         transition-duration: 200ms;
