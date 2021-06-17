@@ -2,15 +2,16 @@
 
 #footer{
     position: relative;
+    margin-bottom: 0;
 }
 .copy{
     position: absolute;
     z-index: 1;
-    bottom: 50px;
+    bottom: 10px;
     width: 100%;
     text-align: center;
     color: #fff;
-    font-size: 1rem;
+    font-size: 1.2rem;
     a{
         text-decoration: none;
         color: #fff;

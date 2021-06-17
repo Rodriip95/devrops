@@ -16,7 +16,7 @@ function faq(){
                 </h2>
                 <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                     <div className="accordion-body">
-                        <p>La modalidad es remota con clases en vivo via Meet. Las clases tienen un horario pactado con cupos limitados para que el feedback sea rapido y en el momento. Se dan conceptos teoricos y se los pone en practica con desafios que se realizan en la misma clase.
+                        <p>La modalidad es remota con clases en vivo vía Meet. Las clases tienen un horario pactado con cupos limitados para que el feedback sea rápido y en el momento. Se dan conceptos teóricos y se los pone en practica con desafíos que se realizan en la misma clase.
                         </p>
                     </div>
                 </div>
@@ -25,13 +25,13 @@ function faq(){
             <div className="accordion-item">
                 <h2 className="accordion-header" id="headingTwo">
                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    <p className="pheader">¿De que me sirve aprender diseño y programación web?</p>
+                    <p className="pheader">¿De qué me sirve aprender diseño y programación web?</p>
                 </button>
                 </h2>
                 <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
                         <p>
-                            Aprender estas tecnologias sirve para crear y programar paginas webs, de estos cursos aprenderemos las bases de la profesion de desarrollador Front-end.
+                        Aprender estas tecnologías sirve para crear y programar páginas webs, de estos cursos aprenderemos las bases de la profesión de desarrollador Front-end.
                         </p>
                     </div>
                 </div>
@@ -40,7 +40,7 @@ function faq(){
             <div className="accordion-item">
                 <h2 className="accordion-header" id="headingThree">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    <p className="pheader">¿Despues de estos cursos puedo aplicar a trabajos?</p>
+                    <p className="pheader">¿Después de estos cursos puedo aplicar a trabajos?</p>
                 </button>
                 </h2>
                 <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
@@ -55,7 +55,7 @@ function faq(){
             <div className="accordion-item">
                 <h2 className="accordion-header" id="headingFour">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                    <p className="pheader">¿Cuales son los metodos de pago?</p>
+                    <p className="pheader">¿Cuáles son los métodos de pago?</p>
                 </button>
                 </h2>
                 <div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">

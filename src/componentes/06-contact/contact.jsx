@@ -49,7 +49,7 @@ export default function Contact(){
 
             <div className="row mt-4">
                 <div className="col-12 col-lg-6 px-4 d-flex flex-column justify-content-center align-items-center mb-5 cont-buzon">
-                    <h3 className="text-center">Si tienes una consulta espefica poder enviarla completando el siguiente formulario:</h3>
+                    <h3 className="text-center">Si tienes una consulta especifica poder enviarla completando el siguiente formulario:</h3>
                     <div>
                         <img src={"/assests/svg/inbox.svg"} alt="" width="340px"/>
                         <img className="blobfondo" src={"/assests/svg/blobr.svg"} alt=""/>
