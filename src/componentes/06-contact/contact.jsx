@@ -4,6 +4,8 @@ import * as Yup from 'yup';
 import emailjs from 'emailjs-com';
 import Swal from 'sweetalert2';
 import './contact.scss';
+import config from '../emailjs/index.js'
+
 
 const SignupSchema = Yup.object().shape({
   name: Yup.string()
@@ -25,13 +27,13 @@ export default function Contact(){
     function sendEmail(e) {
         e.preventDefault();
         if(e.target.name.value !== "" && e.target.email.value !== "" && e.target.message.value){
-            emailjs.sendForm("config.service", "config.template", e.target, "config.key")
+            emailjs.sendForm(config.service, config.template, e.target, config.key)
             .then((result) => {
                 e.target.reset()
                 console.log(result.text);
                 Swal.fire(
-                    'Send Mail!',
-                    'I will be answering you soon ;)',
+                    'Mail enviado!',
+                    'Te estare contestando pronto ;)',
                     'success'
                     )
                 }, (error) => {
