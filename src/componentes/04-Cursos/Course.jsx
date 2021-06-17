@@ -39,7 +39,7 @@ export default function Course(){
                                 </div>
 
                                 <div className="btnCurso d-flex justify-content-center">
-                                    <Link className="btnlink" to="/">
+                                    <Link className="btnlink" to="/design">
                                         <span>Ver</span>
                                     </Link>
                                 </div>
