@@ -36,6 +36,7 @@ export default function Desing(){
 
 
         <div className="container">
+            
             <div className="row mb-4">
                 <div className="col-12 col-md-6 mt-4">
                     <div>
@@ -59,6 +60,47 @@ export default function Desing(){
                     </div>
                 </div>
             </div>
+
+            <div>
+                <div>
+                    <h1>Temario del curso</h1>
+                </div>
+                <div className="row">
+                    <div className="col-12 col-md-6">
+                        <p>Modulo 1: Conociendo una Web</p>
+                    </div>
+                    <div className="col-12 col-md-6">
+                        <p>Modulo 2: Estrutura y lenguaje HTML</p>
+                    </div>
+                    <div className="col-12 col-md-6">
+                        <p>Modulo 3: Estilos en CSS</p>
+                    </div>
+                    <div className="col-12 col-md-6">
+                        <p>Modulo 4: Flexbox y posicionamientos</p>
+                    </div>
+                    <div className="col-12 col-md-6">
+                        <p>Modulo 5: Animaciones</p>
+                    </div>
+                    <div className="col-12 col-md-6">
+                        <p>Modulo 6: La Web en telefonos</p>
+                    </div>
+                    <div className="col-12 col-md-6">
+                        <p>Modulo 7: Bootstrap</p>
+                    </div>
+                    <div className="col-12 col-md-6">
+                        <p>Modulo 8: Proyectos</p>
+                    </div>
+                </div>
+
+                <div>
+                    <h1>Proxima fecha:</h1>
+                </div>
+                <div>
+                    <p>Junio: 28/06 al 04/08</p>
+                    <p>Horarios: Lunes y Miercoles de 20:30 a 22:30 hs</p>
+                </div>
+            </div>
+
         </div>
 
         </>
