@@ -1,9 +1,10 @@
 import React, { useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { HashLink } from 'react-router-hash-link';
-import './desing.scss'
+import './programming.scss'
+{/* <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfLnQdK0Am2DJkin1F9JfmnHNPV_GvlZy8ogtQtYjQS2qVWNQ/viewform?embedded=true" width="640" height="1307" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe> */}
 
-export default function Desing(){
+export default function Programming(){
     const { pathname } = useLocation();
 
     useEffect(() => {
@@ -18,7 +19,7 @@ export default function Desing(){
             </div>
             <div className="border d-flex justify-content-center">
                 <div className="contenido">
-                    <h1 className="py-3">Curso de Diseño Web</h1>
+                    <h1 className="py-3">Curso de Programacion Web</h1>
                     <p>Aprende a crear paginas webs para todos los dispositivos</p>
                     <div className="icontexts">
                         <i class="fas fa-check"></i>
@@ -26,7 +27,7 @@ export default function Desing(){
                     </div>
                     <div className="icontexts">
                         <i class="fas fa-check"></i>
-                        <span>Corrección de trabajos</span>
+                        <span>Correccion de trabajos</span>
                     </div>
                     <div className="icontexts">
                         <i class="fas fa-check"></i>
@@ -49,7 +50,7 @@ export default function Desing(){
                     <div className="acercadelcurso">
                         <h1>Acerca del curso</h1>
                         <div className="lineaverde mb-4"></div>
-                        <p>Aprenderemos a crear y diseñar una pagina web, las bases del desarrollo Front-end. Aprenderemos desde 0, las interfaces y componentes que conforman una web, el objetivo es realizar proyectos y trabajarlos de manera profesional.</p>
+                        <p>Aprenderemos a crear y diseñar una pagina web, las bases del desarrollo Front-end. Aprenderemos desde 0, las intefaces y componentes que conforman una web, el objetivo es realizar proyectos y trabajarlos de manera profesional.</p>
                         <p className="mt-3">Requisitos:</p>
                         <div>
                             <i class="fas fa-laptop"></i>
@@ -79,7 +80,7 @@ export default function Desing(){
                         <p><strong>Modulo 1:</strong> Conociendo una Web</p>
                     </div>
                     <div className="col-12 col-md-6">
-                        <p><strong>Modulo 2:</strong> Estructura y lenguaje HTML</p>
+                        <p><strong>Modulo 2:</strong> Estrutura y lenguaje HTML</p>
                     </div>
                     <div className="col-12 col-md-6">
                         <p><strong>Modulo 3:</strong> Estilos en CSS</p>
@@ -103,7 +104,7 @@ export default function Desing(){
 
                 <div id="inscription" className="my-5">
                     <div>
-                        <h1 className="temario">Próxima fecha:</h1>
+                        <h1 className="temario">Proxima fecha:</h1>
                         <div className="lineaverde mb-3"></div>
                     </div>
                     <div className="horarios">

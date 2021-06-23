@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import {Link} from 'react-router-dom'
+import { HashLink as Link } from 'react-router-hash-link';
 import './navbar.scss'
 
 export default function Navbar() {
@@ -32,27 +32,28 @@ export default function Navbar() {
           <div className="d-flex flex-row justify-content-md-start justify-content-lg-end w-100">
           <ul className="navbar-nav lista">
             <li className="nav-item lista-items">
-              <a className="nav-link" href="#about">
+              <Link className="nav-link" to="/#about">
                 ¿Que es Devrops?
-              </a>
+              </Link>
               <div className="lineanav"></div>
             </li>
             <li className="nav-item lista-items">
-              <a className="nav-link" href="#course">
+              
+              <Link className="nav-link"  to="/#course">
                 Cursos
-              </a>
+              </Link>
               <div className="lineanav"></div>
             </li>
             <li className="nav-item lista-items">
-              <a className="nav-link" href="#testimonials">
+              <Link className="nav-link" to="/#testimonials">
                 Testimonios
-              </a>
+              </Link>
               <div className="lineanav"></div>
             </li>
             <li className="nav-item lista-items">
-              <a className="nav-link" href="#faq">
+              <Link className="nav-link" to="/#faq">
                 FAQ
-              </a>
+              </Link>
               <div className="lineanav"></div>
             </li>
           </ul>

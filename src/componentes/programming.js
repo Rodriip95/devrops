@@ -1,12 +1,12 @@
 import React from 'react'
-import Desing from './desing/Desing'
+import Programming from './programming/Programming'
 import Footer from './09-Footer/Footer'
 
 
-export default function PageDesing(){
+export default function PageProgramming(){
     return(
         <>
-            <Desing/>
+            <Programming/>
             <Footer/>
         </>
     )
