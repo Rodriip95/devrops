@@ -19,8 +19,8 @@ export default function Programming(){
             </div>
             <div className="border d-flex justify-content-center">
                 <div className="contenido">
-                    <h1 className="py-3">Curso de Programacion Web</h1>
-                    <p>Aprende a crear paginas webs para todos los dispositivos</p>
+                    <h1 className="p-3">Curso de Programacion Web</h1>
+                    <p>Aprende a programar aplicaciones web</p>
                     <div className="icontexts">
                         <i class="fas fa-check"></i>
                         <span>Clases en vivo</span>
@@ -50,22 +50,22 @@ export default function Programming(){
                     <div className="acercadelcurso">
                         <h1>Acerca del curso</h1>
                         <div className="lineaverde mb-4"></div>
-                        <p>Aprenderemos a crear y diseñar una pagina web, las bases del desarrollo Front-end. Aprenderemos desde 0, las intefaces y componentes que conforman una web, el objetivo es realizar proyectos y trabajarlos de manera profesional.</p>
+                        <p>Aprenderemos las bases de la programación y el desarrollo en Javascript (el lenguaje interpretado por los browsers), el objetivo es realizar aplicaciones y aplicar lo aprendido.</p>
                         <p className="mt-3">Requisitos:</p>
                         <div>
                             <i class="fas fa-laptop"></i>
                             <span>Computadora o Notebook con acceso a internet</span>
                         </div>
                         <div>
-                            <i class="far fa-times-circle"></i>
-                            <span>No se necesitan conocimientos previos</span>
+                            <i class="fab fa-html5"></i>
+                            <span>Conocimientos minimos de HTML, los veremos en el programa por sin entrar en detalles</span>
                         </div>
                     </div>
                 </div>
 
                 <div className="col-12 col-md-6 mt-4">
                     <div className="text-center">
-                        <img src={"/assests/svg/desing.svg"} alt="" />
+                        <img src={"/assests/svg/js.svg"} alt="" />
                     </div>
                 </div>
             </div>
@@ -77,25 +77,25 @@ export default function Programming(){
                 </div>
                 <div className="row temariodesc">
                     <div className="col-12 col-md-6">
-                        <p><strong>Modulo 1:</strong> Conociendo una Web</p>
+                        <p><strong>Modulo 1:</strong> Introducción a la programación en Javascript</p>
                     </div>
                     <div className="col-12 col-md-6">
-                        <p><strong>Modulo 2:</strong> Estrutura y lenguaje HTML</p>
+                        <p><strong>Modulo 2:</strong> Operadores y Metodos</p>
                     </div>
                     <div className="col-12 col-md-6">
-                        <p><strong>Modulo 3:</strong> Estilos en CSS</p>
+                        <p><strong>Modulo 3:</strong> Condicionales y Ciclos</p>
                     </div>
                     <div className="col-12 col-md-6">
-                        <p><strong>Modulo 4:</strong> Flexbox y posicionamientos</p>
+                        <p><strong>Modulo 4:</strong> Funciones</p>
                     </div>
                     <div className="col-12 col-md-6">
-                        <p><strong>Modulo 5:</strong> Animaciones</p>
+                        <p><strong>Modulo 5:</strong> Colecciones de datos</p>
                     </div>
                     <div className="col-12 col-md-6">
-                        <p><strong>Modulo 6:</strong> La Web en telefonos</p>
+                        <p><strong>Modulo 6:</strong> DOM</p>
                     </div>
                     <div className="col-12 col-md-6">
-                        <p><strong>Modulo 7:</strong> Bootstrap</p>
+                        <p><strong>Modulo 7:</strong> Integraciones con APIs</p>
                     </div>
                     <div className="col-12 col-md-6">
                         <p><strong>Modulo 8:</strong> Proyectos</p>
@@ -108,11 +108,11 @@ export default function Programming(){
                         <div className="lineaverde mb-3"></div>
                     </div>
                     <div className="horarios">
-                        <p><strong>Junio:</strong> 28/06 al 04/08</p>
-                        <p><strong>Horarios:</strong> Lunes y Miercoles de 20:30 a 22:30 hs</p>
+                        <p><strong>Junio:</strong> 29/06 al 05/08</p>
+                        <p><strong>Horarios:</strong> Martes y Jueves de 20:30 a 22:30 hs</p>
                     </div>
                     <div className="d-flex justify-content-center mt-5">
-                        <Link className="btnIncription" to="/design/inscription">
+                        <Link className="btnIncription" to="/programming/inscription">
                             Inscribirme
                         </Link>
                     </div>

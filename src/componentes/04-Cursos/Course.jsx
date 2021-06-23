@@ -72,8 +72,8 @@ export default function Course(){
                                 <p>$<span>6999</span></p>
                             </div>
                             <div className="btnCurso d-flex justify-content-center">
-                                <Link className="btnlink" to="/">
-                                    <span>Proximamente</span>
+                                <Link className="btnlink" to="/programming">
+                                    <span>Ver</span>
                                 </Link>
                             </div>
                         </div>  
