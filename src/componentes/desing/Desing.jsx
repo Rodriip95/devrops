@@ -109,6 +109,9 @@ export default function Desing(){
                     <div className="horarios">
                         <p><strong>Junio:</strong> 28/06 al 04/08</p>
                         <p><strong>Horarios:</strong> Lunes y Miercoles de 20:30 a 22:30 hs</p>
+
+                        <p><strong>Agosto:</strong> 16/08 al 22/09</p>
+                        <p><strong>Horarios:</strong> Lunes y Miercoles de 20:30 a 22:30 hs</p>
                     </div>
                     <div className="d-flex justify-content-center mt-5">
                         <Link className="btnIncription" to="/design/inscription">

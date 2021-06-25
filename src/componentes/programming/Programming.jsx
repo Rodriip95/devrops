@@ -110,6 +110,9 @@ export default function Programming(){
                     <div className="horarios">
                         <p><strong>Junio:</strong> 29/06 al 05/08</p>
                         <p><strong>Horarios:</strong> Martes y Jueves de 20:30 a 22:30 hs</p>
+
+                        <p><strong>Agosto:</strong> 17/08 al 23/09</p>
+                        <p><strong>Horarios:</strong> Martes y Jueves de 20:30 a 22:30 hs</p>
                     </div>
                     <div className="d-flex justify-content-center mt-5">
                         <Link className="btnIncription" to="/programming/inscription">
