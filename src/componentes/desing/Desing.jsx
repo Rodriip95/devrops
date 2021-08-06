@@ -107,11 +107,10 @@ export default function Desing(){
                         <div className="lineaverde mb-3"></div>
                     </div>
                     <div className="horarios">
-                        <p><strong>Junio:</strong> 28/06 al 04/08</p>
-                        <p><strong>Horarios:</strong> Lunes y Miercoles de 20:30 a 22:30 hs</p>
+                        <p style={{textDecoration: 'line-through red'}}><strong>Junio:</strong> 28/06 al 04/08</p>
 
-                        <p><strong>Agosto:</strong> 16/08 al 22/09</p>
-                        <p><strong>Horarios:</strong> Lunes y Miercoles de 20:30 a 22:30 hs</p>
+                        <p><strong>Septiembre:</strong> 07/09 al 14/10</p>
+                        <p><strong>Horarios:</strong> Martes y Jueves de 20:30 a 22:30 hs</p>
                     </div>
                     <div className="d-flex justify-content-center mt-5">
                         <Link className="btnIncription" to="/design/inscription">

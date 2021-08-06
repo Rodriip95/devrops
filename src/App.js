@@ -20,15 +20,15 @@ function App() {
         <Route exact path="/design/inscription">
           <PageInscriptionDesing/>
         </Route>
-        <Route exact path="/programming/inscription">
+        {/* <Route exact path="/programming/inscription">
           <PageInscriptionProgra/>
-        </Route>
+        </Route> */}
         <Route exact path="/design">
           <PageDesing/>
         </Route>
-        <Route exact path="/programming">
+        {/* <Route exact path="/programming">
           <PageProgramming/>
-        </Route>
+        </Route> */}
         <Route exact path="/">
           <Main/>
         </Route>
